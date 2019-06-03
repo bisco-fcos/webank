@@ -1,2 +1,4 @@
-# webank
-Directory for homework
+# 微众银行区块链实训周报仓库
+day1为第一周周报仓库，day2为第二周周报仓库，以此类推
+
+
