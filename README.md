@@ -8,6 +8,7 @@
 - [第一周作业仓库day1](https://github.com/bisco-fcos/webank/tree/master/day2)
 
 ### 项目结构
+```
 ├─day1
 │  ├─冯韵
 │  │      Day1.md
@@ -47,5 +48,5 @@
 └─周报
         week_1.md
         week_2.md
-
+```
 
