@@ -22,6 +22,10 @@
 ## 第二周 
 - [第二周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_2.md)
 - [第二周作业仓库day2](https://github.com/bisco-fcos/webank/tree/master/day2)
+## 第三周 
+- [第三周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_3.md)
+- [第三周作业仓库day2](https://github.com/bisco-fcos/webank/tree/master/day3)
+
 
 ### 项目结构
 ```
