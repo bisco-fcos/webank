@@ -1,6 +1,11 @@
 # 众银行区块链实训-第三周小组周报
-本周的主要工作为：
+## 本次作业
+1. 通过[僵尸游戏][1]熟悉solidity规则 
+1. 使用[spring-boot-starter][2]部署课上的LAG积分合约
+1. 用控制台加载getaccount的脚本生成的私钥时，需将私钥前面的0x去掉
+1. remix编译的时右上角选择版本为0.4.26
 
+## 成员具体工作
 成员|内容
 :----:|---
 贾宇然|1. 完成了僵尸编程教程的基础部分，对Solidity
@@ -9,7 +14,7 @@
 谢珮爽|1.完成了对build_chain.sh的阅读和理解，并完成了报告。<br />2. 完成了PPT的总结部分，对脚本的编写思路和main()的流程有了更深入的理解<br />3.进一步了解了更多的控制台命令。                                                             
 王松盛|1. 完成了build_chain.sh的代码阅读工作。<br />2. 完成了sha256，证书体系，rsa算法的初步了解工作。<br />3 完成了PPT关于main函数部分流程的制作。
 
-## 成员具体工作内容
+## 工作报告与记录
 - [贾宇然第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B4%BE%E5%AE%87%E7%84%B6/Build_ChainReport-JiaYuRan.md)
 - [贾宇然第二周Console报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B4%BE%E5%AE%87%E7%84%B6/Console_Report.md)
 - [冯韵  第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E5%86%AF%E9%9F%B5/BuildChainReport-FengYun.md)
