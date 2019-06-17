@@ -16,7 +16,7 @@
 谢珮爽|1.完成了对build_chain.sh的阅读和理解，并完成了报告。<br />2. 完成了PPT的总结部分，对脚本的编写思路和main()的流程有了更深入的理解<br />3.进一步了解了更多的控制台命令。                                                             
 王松盛|1. 完成了build_chain.sh的代码阅读工作。<br />2. 完成了sha256，证书体系，rsa算法的初步了解工作。<br />3 完成了PPT关于main函数部分流程的制作。
 
-## 成员具体工作内容
+## 工作报告与记录
 - [贾宇然第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B4%BE%E5%AE%87%E7%84%B6/Build_ChainReport-JiaYuRan.md)
 - [贾宇然第二周Console报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B4%BE%E5%AE%87%E7%84%B6/Console_Report.md)
 - [冯韵  第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E5%86%AF%E9%9F%B5/BuildChainReport-FengYun.md)
