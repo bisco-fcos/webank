@@ -1,6 +1,13 @@
 # 众银行区块链实训-第二周小组周报
-本周的主要工作为：
 
+ 本次实验内容包括：
+ 1. 读懂build_chain.sh脚本执行的工作，并写个简单报告。推荐使用Markdown写报告。可放在Github项目里算作工作量；
+ 2. 制作PPT讲解脚本；
+ 3. 尝试使用控制台的更多命令；
+ 4. （可选）尝试阅读FISCO BCOS的技术文档，并加深认识
+ 技术文档地址： https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/index.html
+ 
+ 
 成员|内容
 :----:|---
 贾宇然|1. 完成了build_chain.sh的代码阅读和报告，对ipconf文件和通过-f选项生成多群组联盟链有了更多的认识。<br />2. 完成了ppt模板排版和美化并完成工具函数部分的讲解制作。<br />3. 学会了多群租联盟链的建立，对控制台的多群组的区块联盟链相关命令如switch和getSealerList有了更多的了解，控制台报告为Console_Report.md。<br />4. 对CA（Certification Authority），即电子商务认证授权机构和数字证书机制、证书规范有更多的理解
