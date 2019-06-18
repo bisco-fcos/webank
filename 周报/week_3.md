@@ -3,7 +3,9 @@
 1. 通过[僵尸游戏][1]熟悉solidity规则 
 1. 使用[spring-boot-starter][2]部署课上的LAG积分合约
 
-**PS:1. 用控制台加载getaccount的脚本生成的私钥时，需将私钥前面的0x去掉<br/> 2. remix编译的时右上角选择版本为0.4.26**
+**PS:
+
+1. 用控制台加载getaccount的脚本生成的私钥时，需将私钥前面的0x去掉<br/> 2. remix编译的时右上角选择版本为0.4.26**
 
 [solidity官方文档](https://solidity.readthedocs.io/en/v0.5.9/)
 
