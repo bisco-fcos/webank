@@ -34,6 +34,8 @@
 ### 项目结构
 ```
 ├─day1
+│  │  Readme.md
+│  │  
 │  ├─冯韵
 │  │      Day1.md
 │  │      ExerciseOne-FengYun.md
@@ -69,8 +71,20 @@
 │          Build_ChainReport-JiaYuRan.md
 │          Console_Report.md
 │          
+├─day3
+│  │  readme.md
+│  │  
+│  ├─冯韵
+│  ├─吴潘安
+│  ├─谢珮爽
+│  └─贾宇然
+│          CryptoZombies-learning.md
+│          LAGContract.md
+│          LAGCredit.sol
+│          
 └─周报
         week_1.md
         week_2.md
+        week_3.md
 ```
 
