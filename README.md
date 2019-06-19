@@ -23,13 +23,13 @@ PS:<br/>
 [2]: https://github.com/FISCO-BCOS/spring-boot-starter/blob/master/doc/README_CN.md "Spring Boot"
 
 
-## 第一周 
+## 第一周 控制台的基本使用
 - [第一周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_1.md)
 - [第一周作业仓库day1](https://github.com/bisco-fcos/webank/tree/master/day1)
-## 第二周 
+## 第二周 build_chain.sh
 - [第二周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_2.md)
 - [第二周作业仓库day2](https://github.com/bisco-fcos/webank/tree/master/day2)
-## 第三周 
+## 第三周 LAGCredit.sol
 - [第三周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_3.md)
 - [第三周作业仓库day3](https://github.com/bisco-fcos/webank/tree/master/day3)
 
