@@ -19,8 +19,7 @@
 冯韵|
 吴潘安|
 谢珮爽|                                                           
-王松盛|1. 完成了僵尸编程教程“Solidity教程：智能合约基础教程”中所有内容，了解了Solidity语言的基础语法，以及教程中介绍的各种trick，例如onlyowner，gas优化，ERC721标准，natspec标准等内容
-2. 初步了解了html，jss以及JavaScript。
+王松盛|1. 完成了僵尸编程教程“Solidity教程：智能合约基础教程”中所有内容，了解了Solidity语言的基础语法，以及教程中介绍的各种trick，例如onlyowner，gas优化，ERC721标准，natspec标准等内容<br/>2. 初步了解了html，jss以及JavaScript。
 
 ## 附录：工作报告与记录
 [贾宇然第三周僵尸教程阅读心得]
