@@ -17,9 +17,9 @@
 王松盛|1. 完成了build_chain.sh的代码阅读工作。<br />2. 完成了sha256，证书体系，rsa算法的初步了解工作。<br />3 完成了PPT关于main函数部分流程的制作。
 
 ## 工作报告与记录
-- [贾宇然第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B4%BE%E5%AE%87%E7%84%B6/Build_ChainReport-JiaYuRan.md)
-- [贾宇然第二周Console报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B4%BE%E5%AE%87%E7%84%B6/Console_Report.md)
-- [冯韵  第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E5%86%AF%E9%9F%B5/BuildChainReport-FengYun.md)
-- [王松盛第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E7%8E%8B%E6%9D%BE%E7%9B%9B/BuildChainReport-WangSongSheng.md)
-- [谢佩爽第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B0%A2%E7%8F%AE%E7%88%BD/BuildChainReport-XiePeiShuang.md)
-- [吴潘安第二周build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E5%90%B4%E6%BD%98%E5%AE%89/BuildChainReport-WuPanAn.md)
+- [贾宇然-第二周-build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B4%BE%E5%AE%87%E7%84%B6/Build_ChainReport-JiaYuRan.md)
+- [贾宇然-第二周-Console报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B4%BE%E5%AE%87%E7%84%B6/Console_Report.md)
+- [冯韵  -第二周-build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E5%86%AF%E9%9F%B5/BuildChainReport-FengYun.md)
+- [王松盛-第二周-build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E7%8E%8B%E6%9D%BE%E7%9B%9B/BuildChainReport-WangSongSheng.md)
+- [谢佩爽-第二周-build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E8%B0%A2%E7%8F%AE%E7%88%BD/BuildChainReport-XiePeiShuang.md)
+- [吴潘安-第二周-build_chain报告](https://github.com/bisco-fcos/webank/blob/master/day2/%E5%90%B4%E6%BD%98%E5%AE%89/BuildChainReport-WuPanAn.md)
