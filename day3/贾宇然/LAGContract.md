@@ -111,7 +111,7 @@ function setSale(uint256 new_sale) public onlyOwner(msg.sender){
 ```
 function _transfer(address _from,address _to,uint _value) internal{
         
-        require(!(_to == 0x0),"The address should be the burning address!");
+        require(!(_to == 0x0),"The address shouldn't be the burning address!");
         require(balances[_from]>=_value,"No enough supply.");
         require(balances[_to]+_value > balances[_to],"Expected a positive value of supply.");
         
