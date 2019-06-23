@@ -22,7 +22,7 @@
 王松盛|1. 完成了僵尸编程教程“Solidity教程：智能合约基础教程”中所有内容，了解了Solidity语言的基础语法，以及教程中介绍的各种trick，例如onlyowner，gas优化，ERC721标准，natspec标准等内容<br/>2. 初步了解了html，jss以及JavaScript。
 
 ## 附录：工作报告与记录
-[吴潘安第四周合约阅读与功能添加报告](https://github.com/bisco-fcos/webank/blob/master/day4/%E5%90%B4%E6%BD%98%E5%AE%89/LAGContract.md)
+[吴潘安-第四周-合约阅读与功能添加报告](https://github.com/bisco-fcos/webank/blob/master/day4/%E5%90%B4%E6%BD%98%E5%AE%89/LAGContract.md)
 
 
 
