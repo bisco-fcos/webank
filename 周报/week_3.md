@@ -22,9 +22,9 @@
 王松盛|1. 完成了僵尸游戏教程“搭建僵尸工厂”，对solidity的基本语法有了初步的了解<br />2. 完成了僵尸游戏教程“僵尸攻击人类“，对solidity数组等基本数据结构相关接口有了初步了解<br />3. 进一步了解了区块链相关背景知识，对区块链可以做什么有了深入思考。
 
 ## 附录：工作报告与记录
-[贾宇然第三周僵尸教程阅读心得](https://github.com/bisco-fcos/webank/blob/master/day3/%E8%B4%BE%E5%AE%87%E7%84%B6/CryptoZombies-learning.md)
+[贾宇然-第三周-僵尸教程阅读心得](https://github.com/bisco-fcos/webank/blob/master/day3/%E8%B4%BE%E5%AE%87%E7%84%B6/CryptoZombies-learning.md)
 
-[贾宇然第三周合约分析与功能添加报告](https://github.com/bisco-fcos/webank/blob/master/day3/%E8%B4%BE%E5%AE%87%E7%84%B6/LAGContract.md)
+[贾宇然-第三周-合约分析与功能添加报告](https://github.com/bisco-fcos/webank/blob/master/day3/%E8%B4%BE%E5%AE%87%E7%84%B6/LAGContract.md)
 
 
 
