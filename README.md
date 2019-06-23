@@ -29,9 +29,12 @@ PS:<br/>
 ## 第二周 build_chain.sh
 - [第二周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_2.md)
 - [第二周作业仓库day2](https://github.com/bisco-fcos/webank/tree/master/day2)
-## 第三周 LAGCredit.sol
-- [第三周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_3.md)
+## 第三周 LAGCredit.sol & SpringBoot
+- [第三周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_4.md)
 - [第三周作业仓库day3](https://github.com/bisco-fcos/webank/tree/master/day3)
+## 第四周 LAGCredit.sol & SpringBoot
+- [第四周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_4.md)
+- [第四周作业仓库day4](https://github.com/bisco-fcos/webank/tree/master/day4)
 
 
 ### 项目结构
