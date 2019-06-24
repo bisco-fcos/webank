@@ -8,15 +8,15 @@ compile 'net.sf.json-lib:json-lib:2.4:jdk15'
 ## 接口开发
 **以下接口返回的信息只作展示用**
 ### 合约部署
-用户可以通过/deploy路径来部署合约，部署成功则会返回合约的地址
+用户可以通过`/deploy`路径来部署合约，部署成功则会返回合约的地址
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/interface_dev2.png)
 
 ### 积分传输
-积分的传输需要用户在/transfer路径下提供三个参数（对应transfer函数所需的参数），积分传递成功的话则会返回积分送出者和接受者各自的积分信息
+积分的传输需要用户在`/transfer`路径下提供三个参数（对应transfer函数所需的参数），积分传递成功的话则会返回积分送出者和接受者各自的积分信息
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/interface_dev3.png)
 
 ### 当前积分查看
-通过/getCurrentSupply,用户可以获得自己账户下的积分信息
+通过`/getCurrentSupply`,用户可以获得自己账户下的积分信息
 ```
 合约部署者地址：0x4f42a3c513a9411954c193a50b1c4ab5393cb20b
 合约部署者私钥(hex)：0x9099ffe712c486fd0f255844de197b8c763f38ca542ba3038974dc04b3ae48ec
