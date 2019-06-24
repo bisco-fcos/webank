@@ -14,18 +14,22 @@
 
 ## gradlew build
 运行官方提供的测试用例，确保当前项目可以用于应用开发
+### 在提供的virtualbox环境下的build
+虚拟机用的是openjdk 11.0.3版本
+![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/java_env_virtual.png)
+
+build虽然成功，但是出现了error和warning
+![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/gradlew_build_virtual.png)
+
+
 ### 在学校电脑上的build
 我选择配置的java环境为1.8.0_211
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/java_env.png)
 
 build比较成功，且没有warning或error
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/gradlew_build1.png)
-### 在提供的virtualbox环境下的build
-虚拟机用的是openjdk 11.0.3版本
-![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springbootjava_env_virtual.png)
 
-build虽然成功，但是出现了error和warning
-![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/gradlew_build_virtual.png)
+####考虑错误与JDK版本有关
 
 ## 合约编译
 **本次编译运行环境为IntelliJ IDEA**
