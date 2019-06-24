@@ -22,7 +22,7 @@ build比较成功，且没有warning或error
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/gradlew_build1.png)
 ### 在提供的virtualbox环境下的build
 虚拟机用的是openjdk 11.0.3版本
-![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/gradlew_build_virtual.png)
+![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springbootjava_env_virtual.png)
 
 build虽然成功，但是出现了error和warning
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/gradlew_build_virtual.png)
