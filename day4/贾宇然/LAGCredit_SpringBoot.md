@@ -1,6 +1,6 @@
-# LAGCredit合约的编译、部署、接口测试
+# LAGCredit合约的编译、部署、功能测试
 
-## 目标：通过SpringBoot完成对LAGCredit合约的编译、部署与接口测试
+## 目标：通过SpringBoot完成对LAGCredit合约的编译、部署与功能测试
 
 **官方文档**
 
@@ -56,7 +56,7 @@ build虽然成功，但是出现了error和warning
 
 我尝试不通过控制器来直接测试这一部分代码，发现程序一切正常。
 
-### json接口测试
+### 功能测试
 #### 注解添加
 1. 在gradle依赖中引入org.springframework.boot:spring-boot-starter-web
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/dependencies.png)
