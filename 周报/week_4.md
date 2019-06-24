@@ -22,10 +22,10 @@
 王松盛|1. 完成了僵尸编程教程“Solidity教程：智能合约基础教程”中所有内容，了解了Solidity语言的基础语法，以及教程中介绍的各种trick，例如onlyowner，gas优化，ERC721标准，natspec标准等内容<br/>2. 初步了解了html，jss以及JavaScript。
 
 ## 附录：工作报告与记录
-[贾宇然-第四周-僵尸教程进阶之路阅读心得](https://github.com/bisco-fcos/webank/blob/master/day4/%E8%B4%BE%E5%AE%87%E7%84%B6/Crypto-Hands-on-Learning.md)
-[贾宇然-第四周-控制台部署合约与功能验证](https://github.com/bisco-fcos/webank/blob/master/day4/%E8%B4%BE%E5%AE%87%E7%84%B6/LAGCredit_Console.md)
-[贾宇然-第四周-SpringBoot编译、部署合约与测试](https://github.com/bisco-fcos/webank/blob/master/day4/%E8%B4%BE%E5%AE%87%E7%84%B6/LAGCredit_SpringBoot.md)
-[贾宇然-第四周-合约后端接口发开文档](https://github.com/bisco-fcos/webank/blob/master/day4/%E8%B4%BE%E5%AE%87%E7%84%B6/InterfaceDevelop.md)
+[贾宇然-第四周-僵尸教程进阶之路阅读心得](https://github.com/bisco-fcos/webank/blob/master/day4/%E8%B4%BE%E5%AE%87%E7%84%B6/Crypto-Hands-on-Learning.md)<br />
+[贾宇然-第四周-控制台部署合约与功能验证](https://github.com/bisco-fcos/webank/blob/master/day4/%E8%B4%BE%E5%AE%87%E7%84%B6/LAGCredit_Console.md)<br />
+[贾宇然-第四周-SpringBoot编译、部署合约与测试](https://github.com/bisco-fcos/webank/blob/master/day4/%E8%B4%BE%E5%AE%87%E7%84%B6/LAGCredit_SpringBoot.md)<br />
+[贾宇然-第四周-合约后端接口发开文档](https://github.com/bisco-fcos/webank/blob/master/day4/%E8%B4%BE%E5%AE%87%E7%84%B6/InterfaceDevelop.md)<br />
 [吴潘安-第四周-合约阅读与功能添加报告](https://github.com/bisco-fcos/webank/blob/master/day4/%E5%90%B4%E6%BD%98%E5%AE%89/LAGContract.md)
 
 
