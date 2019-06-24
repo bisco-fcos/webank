@@ -14,7 +14,7 @@ compile 'net.sf.json-lib:json-lib:2.4:jdk15'
 ### 积分传输
 积分的传输需要用户在`/transfer`路径下提供三个参数（对应transfer函数所需的参数），积分传递成功的话则会返回积分送出者和接受者各自的积分信息
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/interface_dev3.png)
-
+`此处应为post，为了易于展示先设为GET`
 ### 当前积分查看
 通过`/getCurrentSupply`,用户可以获得自己账户下的积分信息
 ```
