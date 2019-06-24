@@ -43,7 +43,7 @@ DeployByCNS的合約部署格式为：DeployByCNS + 合约名 +合约版本 + �
 
 3. 测试合约的基础功能
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-console/function_1.png)
-调用addSupply增加250个积分，结果正确
+调用addSupply为积分发放总量增加250个积分，结果正确
 
 3. 测试sale为默认值时的商店积分赠送情况
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-console/function_2.png)
