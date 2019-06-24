@@ -83,7 +83,7 @@ build比较成功，且没有warning或error
 最后将问题的目光锁定在Web3js和Credentials两者的实例上
 1. 为控制器加入一个构造函数<br/>
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/problem_1.png)
-2. 测试类创建控制器实例时将测试类自己的两个Web3js和Credentials实例传入
+2. 测试类创建控制器实例时将测试类自身的两个Web3js和Credentials实例传入
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/problem_2.png)
 
 终于，测试用例运行成功
