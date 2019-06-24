@@ -29,7 +29,7 @@ build虽然成功，但是出现了error和warning
 build比较成功，且没有warning或error
 ![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-springboot/gradlew_build1.png)
 
-####考虑错误与JDK版本有关
+#### 考虑错误与JDK版本有关
 
 ## 合约编译
 **本次编译运行环境为IntelliJ IDEA**
