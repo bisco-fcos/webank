@@ -1,5 +1,5 @@
 # 微众银行区块链实训仓库
-
+https://travis-ci.org/[marknash666]/[springboot]
 ## 小组成员
 组长：贾宇然
 
