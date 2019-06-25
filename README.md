@@ -61,6 +61,8 @@ PS:<br/>
 │          README.md
 │          
 ├─day2
+│  │  build_chainv4.1.pptx
+│  │  
 │  ├─冯韵
 │  │      BuildChainReport-FengYun.md
 │  │      
@@ -83,14 +85,33 @@ PS:<br/>
 │  ├─冯韵
 │  ├─吴潘安
 │  ├─谢珮爽
+│  │      CryptoZombies-learning.md
+│  │      
 │  └─贾宇然
 │          CryptoZombies-learning.md
 │          LAGContract.md
 │          LAGCredit.sol
 │          
+├─day4
+│  │  readme.md
+│  │  week4.pptx
+│  │  
+│  ├─冯韵
+│  ├─吴潘安
+│  │      LAGContract.md
+│  │      LAGContract.sol
+│  │      
+│  ├─谢珮爽
+│  └─贾宇然
+│          Crypto-Hands-on-Learning.md
+│          InterfaceDevelop.md
+│          LAGCredit_Console.md
+│          LAGCredit_SpringBoot.md
+│          
 └─周报
         week_1.md
         week_2.md
         week_3.md
+        week_4.md       
 ```
 
