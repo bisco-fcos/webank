@@ -1,5 +1,6 @@
 # 微众银行区块链实训仓库
-
+[![Build Status](https://img.shields.io/travis/xcatliu/pagic.svg)](https://travis-ci.org/xcatliu/pagic)
+[![Coveralls](https://img.shields.io/coveralls/xcatliu/pagic.svg)](https://coveralls.io/github/xcatliu/pagic)
 ## 小组成员
 组长：贾宇然
 
