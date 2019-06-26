@@ -7,15 +7,21 @@
 
 组员：冯韵、谢珮爽、吴潘安、王松盛
 ## 本次作业
-1. 通过[僵尸游戏][1]熟悉solidity规则 
-1. 使用[spring-boot-starter][2]部署课上的LAG积分合约
+1. 搭建区块链第层节点，需要包括多机构角色和多群组，具体搭建过程参考[多群组搭建官方文档][1] 
+1. 编写智能合约代码
+2. 编写应用业务层代码，即SpringBoot后段代码
+3. 通过Vue.js编写前端与后端进行交互
+4. 部署Circle Ci、Travis Ci、Code Factor以进行监控、单元测试、自动化测试和代码检测
+5. 设计应用场景，编写项目详细文档
+6. 参加FinTechathon区块链赛道
+
 
 PS:<br/>
 `用控制台加载getaccount的脚本生成的私钥时，需将私钥前面的0x去掉`
 
 `remix编译的时右上角选择版本为0.4.26`
 
-[solidity官方文档](https://solidity.readthedocs.io/en/v0.5.9/)
+[solidity官方文档](https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/docs/tutorial/enterprise_quick_start.html)
 
 [Solidity语言0.4到0.5版本新特性的中文翻译](https://zhuanlan.zhihu.com/p/54169418)
 
