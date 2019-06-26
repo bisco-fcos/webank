@@ -1,5 +1,6 @@
 # 微众银行区块链实训仓库
 ![](https://travis-ci.com/marknash666/springboot.svg?branch=master)
+[![CodeFactor](https://www.codefactor.io/repository/github/marknash666/springboot/badge)](https://www.codefactor.io/repository/github/marknash666/springboot)
 ## 小组成员
 组长：贾宇然
 
