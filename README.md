@@ -16,18 +16,18 @@
 6. 参加FinTechathon区块链赛道
 
 
-PS:<br/>
+控制台与Remix编译器使用PS:<br/>
 `用控制台加载getaccount的脚本生成的私钥时，需将私钥前面的0x去掉`
 
 `remix编译的时右上角选择版本为0.4.26`
 
-[solidity官方文档](https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/docs/tutorial/enterprise_quick_start.html)
+[solidity官方文档](https://solidity.readthedocs.io/en/latest/)
 
 [Solidity语言0.4到0.5版本新特性的中文翻译](https://zhuanlan.zhihu.com/p/54169418)
 
-建议大家可以写一下自己在僵尸教程中的学习心得
 
-[1]: https://cryptozombies.io/en/lesson "jiangshi"
+
+[1]: https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/docs/tutorial/enterprise_quick_start.html "jiangshi"
 [2]: https://github.com/FISCO-BCOS/spring-boot-starter/blob/master/doc/README_CN.md "Spring Boot"
 
 
