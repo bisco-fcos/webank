@@ -9,9 +9,9 @@
 ## 本次作业
 1. 搭建区块链第层节点，需要包括多机构角色和多群组，具体搭建过程参考[多群组搭建官方文档][1] 
 1. 编写智能合约代码
-2. 编写应用业务层代码，即SpringBoot后段代码
+2. 编写应用业务层代码，即SpringBoot后端代码
 3. 通过Vue.js编写前端与后端进行交互
-4. 部署Circle Ci、Travis Ci、Code Factor以进行监控、单元测试、自动化测试和代码检测
+4. 部署[Circle Ci][3]、[Travis Ci][4]、[Code Factor][5]以进行监控、单元测试、自动化测试和代码检测
 5. 设计应用场景，编写项目详细文档
 6. 参加FinTechathon区块链赛道
 
@@ -29,7 +29,9 @@
 
 [1]: https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/docs/tutorial/enterprise_quick_start.html "jiangshi"
 [2]: https://github.com/FISCO-BCOS/spring-boot-starter/blob/master/doc/README_CN.md "Spring Boot"
-
+[3]: https://circleci.com/gh/marknash666/ "circle"
+[4]: https://travis-ci.com/marknash666/springboot "travis"
+[5]: https://www.codefactor.io/ "codefactor"
 
 ## 第一周 控制台的基本使用
 - [第一周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_1.md)
