@@ -1,0 +1,72 @@
+pragma solidity =0.4.22 0.6.0;
+
+
+
+contract VehicleMaintenance {
+    
+    address[] ApprovedMaintenanceShop = new address[](1);授权维修点地址集合
+    address Administrator;合约部署者，管理员
+    mapping (string = Vehicle)  VINtoVehicle;以车架号对应车辆
+    
+    constructor () public{
+        
+        ApprovedMaintenanceShop.push(msg.sender);
+    }
+    
+    struct MaintenanceRecord {
+        string _remarks;备注
+        string _Info;维修保养的具体信息
+        address _MaintenanceShop;记录维修地点
+    }
+
+    struct  Vehicle {
+        string ManufacturingInfo;汽车出厂信息
+        MaintenanceRecord[] records;车辆所拥有的维修保养信息
+        uint initialized;
+    }
+    
+    只有允许的维修点才能执行的修饰函数
+    modifier onlyMaintenanceShop(address){
+        uint label=0;
+        for(uint cnt;cntApprovedMaintenanceShop.length;cnt++)
+        {
+            if(msg.sender == ApprovedMaintenanceShop[cnt])
+            label++;
+        }
+         require(label == 1);
+        _;
+    }
+    
+    只有管理员才能执行的修饰函数
+     modifier onlyAdministrator(address){
+         require(msg.sender == Administrator);
+        _;
+    }
+    
+    function addApprovedMaintenanceShop(address approvedAddress) public onlyAdministrator(msg.sender){
+        ApprovedMaintenanceShop.push(approvedAddress);
+    }
+    
+     获取汽车维护信息
+    function getVehicleInfo(string memory VIN) public view returns (string memory) {
+        Vehicle memory targetcar = VINtoVehicle[VIN];
+        return targetcar.records[0]._Info;
+    }
+    
+     出厂信息设置
+    function ManufactureInit(string memory VIN, string memory originInfo) public onlyMaintenanceShop(msg.sender) {
+        require( VINtoVehicle[VIN].initialized == 0,The ManufacturingInfo is already initialized);
+        VINtoVehicle[VIN].ManufacturingInfo =(originInfo);
+    }
+    
+    更新汽车维护信息
+    function updateVehicleMaintenance (string memory VIN,string memory remarks,string memory info) public onlyMaintenanceShop(msg.sender){
+         Vehicle memory targetcar = VINtoVehicle[VIN];
+         MaintenanceRecord memory newRecord;
+         newRecord._remarks=remarks;
+         newRecord._Info=info;
+         newRecord._MaintenanceShop = msg.sender;
+         targetcar.records.push(newRecord);
+         
+    }
+}
