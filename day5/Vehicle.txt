@@ -1,5 +1,5 @@
 pragma solidity >=0.4.22 <0.6.0;
-
+pragma experimental ABIEncoderV2;
 
 
 contract VehicleMaintenance {
@@ -17,12 +17,13 @@ contract VehicleMaintenance {
         string _remarks;//备注
         string _Info;//维修保养的具体信息
         address _MaintenanceShop;//记录维修地点
+        uint _time;
     }
 
     struct  Vehicle {
         string ManufacturingInfo;//汽车出厂信息
         MaintenanceRecord[] records;//车辆所拥有的维修保养信息
-        uint initialized;
+        uint8 initialized;
     }
     
     //只有允许的维修点才能执行的修饰函数
@@ -48,25 +49,26 @@ contract VehicleMaintenance {
     }
     
      //获取汽车维护信息
-    function getVehicleInfo(string memory VIN) public view returns (string memory) {
+    function getVehicleInfo(string memory VIN) public view returns (string memory,MaintenanceRecord memory) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
-        return targetcar.records[0]._Info;
+        return (targetcar.ManufacturingInfo,targetcar.records[0]);
     }
     
      //出厂信息设置
     function ManufactureInit(string memory VIN, string memory originInfo) public onlyMaintenanceShop(msg.sender) {
         require( VINtoVehicle[VIN].initialized == 0,"The ManufacturingInfo is already initialized");
         VINtoVehicle[VIN].ManufacturingInfo =(originInfo);
+        VINtoVehicle[VIN].initialized = 1;
     }
     
     //更新汽车维护信息
     function updateVehicleMaintenance (string memory VIN,string memory remarks,string memory info) public onlyMaintenanceShop(msg.sender){
-         Vehicle memory targetcar = VINtoVehicle[VIN];
+         Vehicle storage targetcar = VINtoVehicle[VIN];
          MaintenanceRecord memory newRecord;
          newRecord._remarks=remarks;
          newRecord._Info=info;
          newRecord._MaintenanceShop = msg.sender;
+         newRecord._time =now; 
          targetcar.records.push(newRecord);
-         
     }
 }
