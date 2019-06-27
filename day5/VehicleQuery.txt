@@ -4,32 +4,32 @@ import "./VehicleUpdate.sol";
 
 contract VehicleQuery is VehicleUpdate {
     
-   
-    
      //获取汽车维护信息
     function getVehicleManufacturingInfo(string memory VIN) public view returns (string memory) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
         require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
         return targetcar.ManufacturingInfo;
     }
-    
-    function getVehicleInfo(string memory VIN) public view returns (Vehicle memory) {
+    //index为维修记录的下标
+    function getRemark(string memory VIN, uint index) public view returns (string memory) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
         require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
-        return targetcar;
+        return targetcar.records[index]._remarks;
     }
     
-    function getVehicleInfo(string memory VIN) public view returns (Vehicle memory) {
+    function getInfo(string memory VIN, uint index) public view returns (string memory) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
         require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
-        return targetcar;
+        return targetcar.records[index]._info;
     }
     
-    function getVehicleInfo(string memory VIN) public view returns (Vehicle memory) {
+    function getAddress(string memory VIN, uint index) public view returns (address) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
         require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
-        return targetcar;
+        return targetcar.records[index]._MaintenanceShop;
     }
+    
+    
     
     
 }
