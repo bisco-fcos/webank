@@ -14,7 +14,7 @@ contract VehicleUpdate {
     
     struct MaintenanceRecord {
         string _remarks;//备注
-        string _Info;//维修保养的具体信息
+        string _info;//维修保养的具体信息
         address _MaintenanceShop;//记录维修地点
         uint _time;
     }
@@ -62,7 +62,7 @@ contract VehicleUpdate {
          require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
          MaintenanceRecord memory newRecord;
          newRecord._remarks=remarks;
-         newRecord._Info=info;
+         newRecord._info=info;
          newRecord._MaintenanceShop = msg.sender;
          newRecord._time =now; 
          targetcar.records.push(newRecord);
