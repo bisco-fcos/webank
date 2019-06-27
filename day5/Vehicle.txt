@@ -48,10 +48,10 @@ contract VehicleMaintenance {
     }
     
      //获取汽车维护信息
-    function getVehicleInfo(string memory VIN) public view returns (string memory,MaintenanceRecord[] memory) {
+    function getVehicleInfo(string memory VIN) public view returns (Vehicle memory) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
         require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
-        return (targetcar.ManufacturingInfo,targetcar.records);
+        return targetcar;
     }
     
      //出厂信息设置
