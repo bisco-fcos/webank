@@ -1,12 +1,12 @@
 pragma solidity >=0.4.22 <0.6.0;
-pragma experimental ABIEncoderV2;
 
 
-contract VehicleMaintenance {
+
+contract VehicleUpdate {
     
-    address[] ApprovedMaintenanceShop = new address[](1);//授权维修点地址集合
-    address Administrator;//合约部署者，管理员
-    mapping (string => Vehicle)  VINtoVehicle;//以车架号对应车辆
+    address[] internal ApprovedMaintenanceShop = new address[](1);//授权维修点地址集合
+    address internal Administrator;//合约部署者，管理员
+    mapping (string => Vehicle) internal  VINtoVehicle;//以车架号对应车辆
     
     constructor () public{
         ApprovedMaintenanceShop.push(msg.sender);
@@ -48,12 +48,7 @@ contract VehicleMaintenance {
     }
     
      //获取汽车维护信息
-    function getVehicleInfo(string memory VIN) public view returns (Vehicle memory) {
-        Vehicle memory targetcar = VINtoVehicle[VIN];
-        require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
-        return targetcar;
-    }
-    
+
      //出厂信息设置
     function ManufactureInit(string memory VIN, string memory originInfo) public onlyMaintenanceShop(msg.sender) {
         require( VINtoVehicle[VIN].initialized == 0,"The ManufacturingInfo is already initialized");
