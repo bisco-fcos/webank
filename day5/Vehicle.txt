@@ -9,7 +9,6 @@ contract VehicleMaintenance {
     mapping (string => Vehicle)  VINtoVehicle;//以车架号对应车辆
     
     constructor () public{
-        
         ApprovedMaintenanceShop.push(msg.sender);
     }
     
@@ -29,18 +28,18 @@ contract VehicleMaintenance {
     //只有允许的维修点才能执行的修饰函数
     modifier onlyMaintenanceShop(address){
         uint label=0;
-        for(uint cnt=0;cnt<ApprovedMaintenanceShop.length;cnt++)
+        for(uint cnt;cnt<ApprovedMaintenanceShop.length;cnt++)
         {
             if(msg.sender == ApprovedMaintenanceShop[cnt])
             label++;
         }
-         require(label == 1);
+         require(label == 1,"This function can only be exerted by the MaintenanceShop");
         _;
     }
     
     //只有管理员才能执行的修饰函数
      modifier onlyAdministrator(address){
-         require(msg.sender == Administrator);
+         require(msg.sender == Administrator,"This function can only be exerted by the Administrator");
         _;
     }
     
@@ -49,9 +48,10 @@ contract VehicleMaintenance {
     }
     
      //获取汽车维护信息
-    function getVehicleInfo(string memory VIN) public view returns (string memory,MaintenanceRecord memory) {
+    function getVehicleInfo(string memory VIN) public view returns (string memory,MaintenanceRecord[] memory) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
-        return (targetcar.ManufacturingInfo,targetcar.records[0]);
+        require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
+        return (targetcar.ManufacturingInfo,targetcar.records);
     }
     
      //出厂信息设置
@@ -64,6 +64,7 @@ contract VehicleMaintenance {
     //更新汽车维护信息
     function updateVehicleMaintenance (string memory VIN,string memory remarks,string memory info) public onlyMaintenanceShop(msg.sender){
          Vehicle storage targetcar = VINtoVehicle[VIN];
+         require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
          MaintenanceRecord memory newRecord;
          newRecord._remarks=remarks;
          newRecord._Info=info;
