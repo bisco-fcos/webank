@@ -42,12 +42,11 @@ contract VehicleUpdate {
          require(msg.sender == Administrator,"This function can only be exerted by the Administrator");
         _;
     }
-    
+
+    //增加授权的维修点
     function addApprovedMaintenanceShop(address approvedAddress) public onlyAdministrator(msg.sender){
         ApprovedMaintenanceShop.push(approvedAddress);
-    }
-    
-     //获取汽车维护信息
+    }   
 
      //出厂信息设置
     function ManufactureInit(string memory VIN, string memory originInfo) public onlyMaintenanceShop(msg.sender) {
