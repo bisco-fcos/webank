@@ -7,15 +7,14 @@
 
 ## 1. VehicleUpdate合约结构
 ### 数据
-```
-   
-    address[] internal ApprovedMaintenanceShop = new address[](1);//授权维修点地址集合
+```solidity
+       address[] internal ApprovedMaintenanceShop = new address[](1);//授权维修点地址集合
     address internal Administrator;//合约部署者，管理员
     mapping (string => Vehicle) internal  VINtoVehicle;//以车架号对应Vehicle结构体的mapping集合
 ```
 
 ### 自定义结构体
-```   
+```solidity
     struct MaintenanceRecord {
         string _remarks;//备注
         string _info;//维修保养的具体信息
@@ -31,7 +30,7 @@
 ```
 
 ### 修饰函数（提供权限限制）
-```
+```solidity
     //修饰函数，用于修饰只有允许的维修点才能执行的函数，即维修点级权限
     modifier onlyMaintenanceShop(address){
         uint label=0;
@@ -52,7 +51,7 @@
 ```
 
 ### 信息更新函数
-```
+```solidity
     //增加授权的维修点
     function addApprovedMaintenanceShop(address approvedAddress) public onlyAdministrator(msg.sender){
         ApprovedMaintenanceShop.push(approvedAddress);
@@ -80,7 +79,7 @@
 ## 2. VehicleQuery合约结构
 
 ### 信息更新函数
-```
+```solidity
      //获取汽车维护信息
     function getVehicleManufacturingInfo(string memory VIN) public view returns (string memory) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
