@@ -44,6 +44,13 @@ contract VehicleQuery is VehicleUpdate {
         return targetcar.records[index]._time;
     }
     
+    //index为维修记录的下标,以4元组的形式获取该条维修记录的全部信息
+    function getTotalInfo(string memory VIN, uint index) public view returns (string memory,string memory,address,uint) {
+        Vehicle memory targetcar = VINtoVehicle[VIN];
+        require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
+        return (targetcar.records[index]._info,targetcar.records[index]._remarks,targetcar.records[index]._MaintenanceShop,targetcar.records[index]._time);
+    }
+    
     
     
 }
