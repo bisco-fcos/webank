@@ -16,7 +16,7 @@ contract VehicleUpdate {
         string _remarks;//备注
         string _info;//维修保养的具体信息
         address _MaintenanceShop;//记录维修地点
-        uint _time;
+        uint _time;//记录维修的时间戳
     }
 
     struct  Vehicle {
@@ -25,7 +25,7 @@ contract VehicleUpdate {
         uint8 initialized;
     }
     
-    //只有允许的维修点才能执行的修饰函数
+   //修饰函数，用于修饰只有允许的维修点才能执行的函数，即维修点级权限
     modifier onlyMaintenanceShop(address){
         uint label=0;
         for(uint cnt;cnt<ApprovedMaintenanceShop.length;cnt++)
@@ -37,7 +37,7 @@ contract VehicleUpdate {
         _;
     }
     
-    //只有管理员才能执行的修饰函数
+    //修饰函数，用于修饰只有管理员才能执行的函数，即管理员级权限
      modifier onlyAdministrator(address){
          require(msg.sender == Administrator,"This function can only be exerted by the Administrator");
         _;
