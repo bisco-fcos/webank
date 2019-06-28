@@ -8,7 +8,7 @@
 ## 1. VehicleUpdate合约结构
 ### 数据
 ```solidity
-       address[] internal ApprovedMaintenanceShop = new address[](1);//授权维修点地址集合
+    address[] internal ApprovedMaintenanceShop = new address[](1);//授权维修点地址集合
     address internal Administrator;//合约部署者，管理员
     mapping (string => Vehicle) internal  VINtoVehicle;//以车架号对应Vehicle结构体的mapping集合
 ```
