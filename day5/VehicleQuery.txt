@@ -34,9 +34,10 @@ contract VehicleQuery is VehicleUpdate {
      function getRemark(string memory VIN, uint index) public view returns (string memory) {
         Vehicle memory targetcar = VINtoVehicle[VIN];
         require( VINtoVehicle[VIN].initialized == 1,"This VIN is currently invalid,please check the number carefully");
-        return targetcar.records[index]._info;
+        return targetcar.records[index]._remarks;
     }
     
     
     
 }
+
