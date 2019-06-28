@@ -79,8 +79,10 @@
 ## 2. VehicleQuery合约结构
 
 ### 遇到的问题
-为了返回合约内存储的汽车维修信息，我原本打算通过返回Vehicle结构体的方式来完成数据的获取。Remix编译器中这种返回形式需要我们声明 **pragma experimental ABIEncoderV2** 才能开启这种特性，果不其然，无论是SpringBootStarter还是FISCO BCOS控制台提供的智能合约编译工具都会对此报错：
-！[](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-vehicle/vehicle_dev1.png)
+为了返回合约内存储的汽车维修信息，我原本打算通过返回Vehicle结构体的方式来完成数据的获取。Remix编译器,中这种返回形式需要我们声明 **pragma experimental ABIEncoderV2** 才能开启这种特性，果不其然，无论是SpringBootStarter还是FISCO BCOS控制台提供的智能合约编译工具都会对此报错,信息如下：
+![](https://github.com/marknash666/FiscoBcos-Exercises/blob/master/images/image-for-vehicle/vehicle_dev1.png)
+
+因此最后选择将维修记录信息通过4元组的形式返回，后端会遍历Vehicle的Records数组，循环获取汽车的所有维修记录
 
 ### 信息更新函数
 ```solidity
