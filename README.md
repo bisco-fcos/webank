@@ -2,7 +2,7 @@
 ![](https://travis-ci.com/marknash666/springboot.svg?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/marknash666/springboot/badge)](https://www.codefactor.io/repository/github/marknash666/springboot)
 [![CircleCI](https://circleci.com/gh/marknash666/springboot.svg?style=svg)](https://circleci.com/gh/marknash666/springboot)
-![codecov](https://codecov.io/gh/marknash666/springboot/branch/master/graph/badge.svg)](https://codecov.io/gh/marknash666/springboot)
+![codecov](https://codecov.io/gh/marknash666/springboot/branch/master/graph/badge.svg)
 
 ## _SpringBoot 后端链接：https://github.com/marknash666/springboot_
 ## 小组成员
