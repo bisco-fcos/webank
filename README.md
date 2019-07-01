@@ -48,6 +48,9 @@
 ## 第四周 LAGCredit.sol & SpringBoot
 - [第四周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_4.md)
 - [第四周作业仓库day4](https://github.com/bisco-fcos/webank/tree/master/day4)
+## 第五周 基于区块链的汽车维修保养记录查询系统 合约编写、SpringBoot后端开发
+- [第五周周报](https://github.com/bisco-fcos/webank/blob/master/%E5%91%A8%E6%8A%A5/week_5.md)
+- [第五周作业仓库day5](https://github.com/bisco-fcos/webank/tree/master/day5)
 
 
 ### 项目结构
