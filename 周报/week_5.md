@@ -1,4 +1,4 @@
-# 众银行区块链实训-第四周小组周报
+# 众银行区块链实训-第五周小组周报
 
 ## 本次作业
 1. 编写智能合约代码
@@ -14,8 +14,11 @@
 
 [Solidity语言0.4到0.5版本新特性的中文翻译](https://zhuanlan.zhihu.com/p/54169418)
 
-[1]: https://cryptozombies.io/en/lesson "jiangshi"
+[1]: https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/docs/tutorial/enterprise_quick_start.html "jiangshi"
 [2]: https://github.com/FISCO-BCOS/spring-boot-starter/blob/master/doc/README_CN.md "Spring Boot"
+[3]: https://circleci.com/gh/marknash666/ "circle"
+[4]: https://travis-ci.com/marknash666/springboot "travis"
+[5]: https://www.codefactor.io/ "codefactor"
 
 ## 成员具体工作
 成员|内容
