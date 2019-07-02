@@ -11,8 +11,9 @@ contract VehicleOwnership is VehicleQuery {
     }
     
     function ownerOf(string memory VIN) public view returns (address _owner) {
+        bool exist = VINExist[VIN];
         uint _tokenId = VINtoVehicle[VIN]; 
-        require( _tokenId < carCount ,"This tokenID is currently invalid,please check the number carefully");
+        require( exist== true ,"This VIN is currently invalid,please check the number carefully");
         return carToOwner[_tokenId];
     }
     
@@ -26,20 +27,23 @@ contract VehicleOwnership is VehicleQuery {
     
     function transfer(address _to,  string memory VIN) public onlyOwnerOfCar(VIN) {
         uint _tokenId = VINtoVehicle[VIN]; 
-        require( _tokenId < carCount ,"This tokenID is currently invalid,please check the number carefully");
+        bool exist = VINExist[VIN];
+        require( exist==true ,"This VIN is currently invalid,please check the number carefully");
         _transfer(msg.sender, _to, _tokenId);
     }
     
     function approve(address _to, string memory VIN) public onlyOwnerOfCar(VIN) {
         uint _tokenId = VINtoVehicle[VIN]; 
-        require( _tokenId < carCount,"This tokenID is currently invalid,please check the number carefully");
+        bool exist = VINExist[VIN];
+        require( exist==true,"This VIN is currently invalid,please check the number carefully");
         carApprovals[_tokenId] = _to;
         emit Approval(msg.sender, _to, _tokenId);
     }
     
     function takeOwnership(string memory VIN) public {
         uint _tokenId = VINtoVehicle[VIN]; 
-        require( _tokenId < carCount ,"This tokenID is currently invalid,please check the number carefully");
+        bool exist = VINExist[VIN];
+        require( exist==true ,"This VIN is currently invalid,please check the number carefully");
         require(carApprovals[_tokenId] == msg.sender);
         address owner = ownerOf(VIN);
         _transfer(owner, msg.sender, _tokenId);
