@@ -12,10 +12,10 @@ contract VehicleUpdate {
     //以车架号对应车辆索引
     mapping (string => uint) internal  VINtoVehicle;
     // 车辆索引对应主人地址
-    mapping (uint => address) public carToOwner;
+    mapping (uint => address) internal carToOwner;
     // 车主拥有车辆计数
     mapping (address => uint) ownerCarCount;
-    mapping (string => bool) VINExist;
+    mapping (string => bool) public VINExist;
     
     constructor () public{
         ApprovedMaintenanceShop.push(msg.sender);
