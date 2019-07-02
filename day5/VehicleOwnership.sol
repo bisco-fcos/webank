@@ -44,7 +44,7 @@ contract VehicleOwnership is VehicleQuery {
         uint _tokenId = VINtoVehicle[VIN]; 
         bool exist = VINExist[VIN];
         require( exist==true ,"This VIN is currently invalid,please check the number carefully");
-        require(carApprovals[_tokenId] == msg.sender);
+        require(carApprovals[_tokenId] == msg.sender,"Only the aprroved address can take the Ownership");
         address owner = ownerOf(VIN);
         _transfer(owner, msg.sender, _tokenId);
     }
