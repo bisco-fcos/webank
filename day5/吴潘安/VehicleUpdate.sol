@@ -4,11 +4,11 @@ pragma solidity >=0.4.22 <0.6.0;
 
 contract VehicleUpdate {
     
-    address[] internal ApprovedMaintenanceShop = new address[](0);//授权维修点地址集合
+    address[]  internal ApprovedMaintenanceShop = new address[](0);//授权维修点地址集合
     address internal Administrator;//合约部署者，管理员
     
-    // 车辆动态数组
-    Vehicle [] internal cars;
+    uint internal carCount = 0;
+    mapping (uint => Vehicle) internal  cars;
     //以车架号对应车辆索引
     mapping (string => uint) internal  VINtoVehicle;
     // 车辆索引对应主人地址
@@ -73,15 +73,16 @@ contract VehicleUpdate {
         bool exist = VINExist[VIN];
         require( exist == false,"The ManufacturingInfo is already initialized");
         
-        uint index = VINtoVehicle[VIN];
+        uint index = carCount;
+        carCount += 1;
+        VINtoVehicle[VIN] = index;
+        
         Vehicle storage car = cars[index];
         VINExist[VIN] = true;
         
-        car.ManufacturingInfo =(originInfo);
+        car.ManufacturingInfo =originInfo;
         ownerCarCount[msg.sender] += 1;
-        cars.push(car);
         carToOwner[index] = msg.sender;
-        
     }
     
     //更新汽车维护信息
