@@ -1,7 +1,7 @@
 pragma solidity >=0.4.22 <0.6.0;
 
 import "./VehicleUpdate.sol";
-import "./erc721.sol";
+import "./ERC721.sol";
 
 contract VehicleQuery is VehicleUpdate , ERC721 {
     
