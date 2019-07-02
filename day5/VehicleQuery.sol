@@ -5,6 +5,12 @@ import "./ERC721.sol";
 
 contract VehicleQuery is VehicleUpdate , ERC721 {
     
+    //获取对应VIN号的汽车信息的存在性
+    function getExistence(string memory VIN) public view returns (bool) {
+        bool exist = VINExist[VIN];
+        return exist;
+    }
+    
      //获取汽车出厂信息
     function getVehicleManufacturingInfo(string memory VIN) public view returns (string memory) {
         bool exist = VINExist[VIN];
