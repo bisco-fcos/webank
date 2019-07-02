@@ -12,7 +12,7 @@ contract VehicleUpdate {
     //以车架号对应车辆索引
     mapping (string => uint) internal  VINtoVehicle;
     // 车辆索引对应主人地址
-    mapping (uint => address) internal carToOwner;
+    mapping (uint => address) public carToOwner;
     // 车主拥有车辆计数
     mapping (address => uint) ownerCarCount;
     mapping (string => bool) VINExist;
@@ -55,7 +55,7 @@ contract VehicleUpdate {
     // 只有车主才有车的交易权
     modifier onlyOwnerOfCar(string memory VIN) {
         uint carID = VINtoVehicle[VIN];
-        require(msg.sender == carToOwner[carID]);
+        require(msg.sender == carToOwner[carID],"This function can only be operated by the Car-Holder.");
         _;
     }
 
