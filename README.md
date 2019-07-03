@@ -3,7 +3,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/marknash666/springboot/badge)](https://www.codefactor.io/repository/github/marknash666/springboot)
 [![CircleCI](https://circleci.com/gh/marknash666/springboot.svg?style=svg)](https://circleci.com/gh/marknash666/springboot)
 ![codecov](https://codecov.io/gh/marknash666/springboot/branch/master/graph/badge.svg)
-https://documenter.getpostman.com/view/7981687/S1a8xPz8?version=latest
+
 ## _SpringBoot 后端链接：https://github.com/marknash666/springboot_
 ## 小组成员
 组长：贾宇然
