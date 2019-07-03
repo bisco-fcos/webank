@@ -23,9 +23,9 @@
 ## 成员具体工作
 成员|内容
 :----:|---
-贾宇然|1. 完成了基于区块链的汽车维修保养记录查询系统的基础合约编写，包括汽车信息更新VehicleUpdate和汽车信息查询VehicleQuery合约<br /> 
+贾宇然|1. 完成了基于区块链的汽车维修保养记录查询系统的基础合约编写，包括汽车信息更新VehicleUpdate和汽车信息查询VehicleQuery合约<br />2. 与吴潘安同学一起完成二手车交易功能于可见VehicleOwnership。 合约开发文档见附录
 冯韵|1.编写了部分项目设计文档。 <br /> 
-吴潘安|1. 编写基于区块链的汽车维修保养记录查询系统的基础合约，在VehicleUpdate和VehicleQuery引入ERC721，加入二手车交易功能<br />
+吴潘安|1. 编写基于区块链的汽车维修保养记录查询系统的基础合约，在VehicleUpdate和VehicleQuery引入ERC721，加入二手车交易功能，可见VehicleOwnership<br />
 谢珮爽|1.用springboot部署了VchicleQuery合约，并编写了相应的单元测试代码。<br />                                                   
 王松盛|完成了1.0版本部分需求文档编写，提出了记录车辆零部件状况和质量问题的新需求，并进行了初步设想
 
