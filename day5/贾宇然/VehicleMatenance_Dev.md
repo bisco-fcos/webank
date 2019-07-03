@@ -3,7 +3,7 @@
 ## 目标：开发汽车维修保养记录的智能合约
 
 ## 开发思路
-当前车维修保养记录智能合约的基础功能大致可以分为数据更新和数据搜索两类，因此我选择将数据更新函数放在VehicleUpdate中，VehicleQuery继承VehicleUpdate并且拥有我们所需的查询函数。随后添加的汽车所有权相关的
+当前车维修保养记录智能合约的基础功能大致可以分为数据更新和数据搜索两类，因此我选择将数据更新函数放在VehicleUpdate中，VehicleQuery继承VehicleUpdate并且拥有我们所需的查询函数。随后添加的汽车所有权相关的函数则存放在VehicleOwnership中，其实现了ERC721的token传递功能作为汽车交易的基础。
 
 ## 1. VehicleUpdate合约结构
 ### 数据
