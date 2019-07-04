@@ -51,7 +51,7 @@ after_sucess:
 - npm run coveralls
 ```
 ### 配置情况简述
-1. 声明项目词采用的语言java
+1. 声明项目词采用的语言为java
 ```php
 language: java
 jdk:
