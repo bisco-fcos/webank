@@ -1,9 +1,10 @@
 # 微众银行区块链实训仓库
-![](https://travis-ci.com/marknash666/springboot.svg?branch=master)
+后端徽章：![](https://travis-ci.com/marknash666/springboot.svg?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/marknash666/springboot/badge)](https://www.codefactor.io/repository/github/marknash666/springboot)
 [![CircleCI](https://circleci.com/gh/marknash666/springboot.svg?style=svg)](https://circleci.com/gh/marknash666/springboot)
 ![codecov](https://codecov.io/gh/marknash666/springboot/branch/master/graph/badge.svg)
 
+前端徽章：![](https://www.travis-ci.com/marknash666/vue-vehicle.svg?branch=master)
 ## _SpringBoot 后端链接：https://github.com/marknash666/springboot_
 ## _Vue.js 前端链接：https://github.com/marknash666/vue-vehicle_
 ## 小组成员
